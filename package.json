@@ -1,0 +1,33 @@
+{
+  "name": "nodepi_cli",
+  "version": "1.0.0",
+  "description": "Node-Pi is a cli tool for creating RESTful APIs with nodejs, express and sequelize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npi": "./bin/npi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhananjaipai/node-pi.git"
+  },
+  "author": "Dhananjai Pai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhananjaipai/node-pi/issues"
+  },
+  "homepage": "https://github.com/dhananjaipai/node-pi#readme",
+  "dependencies": {
+    "chalk": "~2.2.0",
+    "shelljs": "^0.8.1",
+    "yargs-parser": "^9.0.2"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "prettier": "1.12.1"
+  }
+}
