@@ -1,7 +1,8 @@
 {
   "name": "nodepi_cli",
   "version": "1.0.0",
-  "description": "Node-Pi is a cli tool for creating RESTful APIs with nodejs, express and sequelize.",
+  "description":
+    "Node-Pi is a cli tool for creating RESTful APIs with nodejs, express and sequelize.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +27,8 @@
   },
   "devDependencies": {
     "eslint": "4.19.1",
-    "eslint-config-airbnb": "16.1.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.11.0",
     "eslint-config-prettier": "2.9.0",
     "prettier": "1.12.1"
   }
